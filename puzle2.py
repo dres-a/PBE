@@ -12,10 +12,9 @@ class MiVentana(Gtk.Window):
         self.set_default_size(400, 100)
         self.set_position(True)
 
-        
         self.uid = ""
         self.rf=RfidPN532()
-        
+        "buenas"
         self.box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=10)
         self.box.set_homogeneous(False)
         self.add(self.box)
