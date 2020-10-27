@@ -18,7 +18,7 @@ class RfidPN532:
         
         if (not lector.getFirmwareVersion()): #Este método se usa exclusivamente para verificar si la RPI detecta el dispositivo
 
-            print("ERROR. Compruebe la conexión del dispositivo a la RPI")    # Solo entra en esta condición si no se reconoce PN532
+            print("ERROR. Compruebe la conexión del dispositivo a la RPI. Vuelva a intentarlo")    # Solo entra en esta condición si no se reconoce PN532
             sys.exit()
 
 
